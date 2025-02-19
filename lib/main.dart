@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tool_for_responsive_ui/responsive_widgets/aspect_ratio.dart';
+import 'package:tool_for_responsive_ui/responsive_widgets/intrinsic_height_width.dart';
 
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: AspectRatioWidget(),
+      home: IntrinsicHeightWidth(),
     );
   }
 }
