@@ -5,7 +5,7 @@ class MediaQueryClass extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var height = MediaQuery.of(context).size.height;
+    var height = MediaQuery.of(context).size.height; // get the height of current device and divide it to below container 
     return Scaffold(
       body: Column(
         children: [

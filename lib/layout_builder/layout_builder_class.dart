@@ -7,9 +7,9 @@ class LayoutBuilderClass extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        if (constraints.maxWidth <= 500) {
+      if (constraints.maxWidth <= 500) { // if the max width of the current screen is equal or less than 500 return mobile layout
           return const MobileLayout();
-        } else if (constraints.maxWidth < 1500  ) {
+        } else if (constraints.maxWidth < 1500  ) {  // if the max width of the current screen is less than 1500 return destop layout
           return const DesktopLayout();
         }
         return const Center(
