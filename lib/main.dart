@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tool_for_responsive_ui/layout_builder/layout_builder_class.dart';
 import 'package:tool_for_responsive_ui/media_query/media_query.dart';
 import 'package:tool_for_responsive_ui/responsive_widgets/expanded.dart';
+import 'package:tool_for_responsive_ui/responsive_widgets/fitted_box.dart';
 import 'package:tool_for_responsive_ui/responsive_widgets/flexible.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: FlexibleWidget(),
+      home: FittedBoxWidget(),
     );
   }
 }
