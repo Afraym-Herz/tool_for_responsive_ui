@@ -16,19 +16,19 @@ class ExpandedWidget extends StatelessWidget {
            ),
          ),
          Expanded(
-          flex: 2 ,  // this widget use 3/6 (total of flex) from the rest of height
+          flex: 2 ,  // this widget use 2/6 (total of flex) from the rest of height
            child: Container(
             color: Colors.amber,
            ),
          ),
          Expanded(
-          flex: 1 ,  // this widget use 3/6 (total of flex) from the rest of height
+          flex: 1 ,  // this widget use 1/6 (total of flex) from the rest of height
            child: Container(
             color: Colors.blue,
            ),
          ),   
          Container(
-          height: 100,
+          height: 50,
            color: Colors.deepPurple,
          ),
         ],
