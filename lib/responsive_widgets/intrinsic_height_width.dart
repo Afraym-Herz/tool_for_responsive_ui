@@ -12,7 +12,7 @@ class IntrinsicHeightWidth extends StatelessWidget {
             const SizedBox(
               height: 150,
             ) ,
-            IntrinsicHeight( // mean determine biggest height and use it to 
+            IntrinsicHeight( // mean get biggest height and use it to determine the height of Row (in this case)
               child: Row(
                 children: [
                   Expanded(child: Container(color: Colors.red , child: 
